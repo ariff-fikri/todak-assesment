@@ -7,6 +7,7 @@ This API is developed using Laravel, to create a comprehensive food ordering sys
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Admin Credentials](#Admin-Credentials)
+- [Testing Stripe Payment Gateway](#testing-stripe-payment-gateway)
 - [License](#license)
 
 ## Requirements
@@ -91,6 +92,17 @@ Below are the login credentials for different user roles in the system:
 - **Customer 1**
   - **Email:** customer1@gmail.com
   - **Password:** Customer1234
+
+## Testing Stripe Payment Gateway
+
+You can test the Stripe payment gateway integration using the following card number:
+
+- **Card Number:** 4242 4242 4242 4242
+- **Expiry Date:** Any future date
+- **CVC:** Any 3 digits
+- **ZIP Code:** Any 5-digit ZIP code
+
+This card number is used for testing purposes in Stripe's testing environment. You can use it to simulate successful payments and test various scenarios in your application.
 
 
 ## License
